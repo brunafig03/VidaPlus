@@ -54,13 +54,3 @@ sghss-vidaplus/
 6. **Relatórios Administrativos:** Gerador instantâneo de novos relatórios nos formatos PDF, XLSX ou CSV.
 7. **Segurança de Acessos (LGPD):** Logs de auditoria gerados de forma automática em tempo de execução para cada ação crítica executada dentro do sistema (visualizações, cadastros, backups).
 8. **Configurações e Backup:** Formulário de atualizações da instituição e botão funcional de disparo de backups manuais integrados à auditoria.
-
-## Documentação Acadêmica
-O arquivo `DOCUMENTACAO.md` contém a monografia acadêmica completa estruturada estritamente de acordo com as exigências da disciplina, incluindo:
-- Capa e Sumário;
-- Introdução teórica;
-- Análise de Requisitos (Requisitos Funcionais e Não Funcionais em tabelas);
-- Diagramas UML em Mermaid (Caso de Uso, Diagrama de Classes, DER);
-- Especificação de Endpoints;
-- Plano de Testes detalhado com Cypress e casos funcionais;
-- Conclusão e Referências Acadêmicas (Sommerville, Pressman, LGPD, CFM).
