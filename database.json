@@ -1,0 +1,369 @@
+{
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "Maria Oliveira",
+      "idade": 48,
+      "sexo": "F",
+      "cpf": "032.xxx.xxx-12",
+      "prontuario": "PRN-00421",
+      "ultimaConsulta": "30/05/2025",
+      "especialidade": "Clínica Geral",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "João Santos",
+      "idade": 63,
+      "sexo": "M",
+      "cpf": "071.xxx.xxx-44",
+      "prontuario": "PRN-00398",
+      "ultimaConsulta": "28/05/2025",
+      "especialidade": "Cardiologia",
+      "status": "Internado"
+    },
+    {
+      "id": 3,
+      "nome": "Ana Ferreira",
+      "idade": 35,
+      "sexo": "F",
+      "cpf": "188.xxx.xxx-77",
+      "prontuario": "PRN-00512",
+      "ultimaConsulta": "30/05/2025",
+      "especialidade": "Ginecologia",
+      "status": "Ativo"
+    },
+    {
+      "id": 4,
+      "nome": "Carlos Mendes",
+      "idade": 52,
+      "sexo": "M",
+      "cpf": "044.xxx.xxx-23",
+      "prontuario": "PRN-00289",
+      "ultimaConsulta": "15/05/2025",
+      "especialidade": "Ortopedia",
+      "status": "Ativo"
+    },
+    {
+      "id": 5,
+      "nome": "Rita Souza",
+      "idade": 29,
+      "sexo": "F",
+      "cpf": "221.xxx.xxx-05",
+      "prontuario": "PRN-00641",
+      "ultimaConsulta": "30/05/2025",
+      "especialidade": "Urgência",
+      "status": "Triagem"
+    }
+  ],
+  "profissionais": [
+    {
+      "id": 1,
+      "nome": "Dr. Roberto Costa",
+      "crm": "CRM-SC 12345",
+      "papel": "Médico",
+      "especialidade": "Clínica Geral",
+      "turno": "Manhã",
+      "consultas": "8 / 12",
+      "status": "Ativo"
+    },
+    {
+      "id": 2,
+      "nome": "Dra. Sandra Faria",
+      "crm": "CRM-SC 23456",
+      "papel": "Médica",
+      "especialidade": "Cardiologia",
+      "turno": "Integral",
+      "consultas": "15 / 20",
+      "status": "Ativo"
+    },
+    {
+      "id": 3,
+      "nome": "Dr. Jorge Alves",
+      "crm": "CRM-SC 34567",
+      "papel": "Médico",
+      "especialidade": "Ortopedia",
+      "turno": "Tarde",
+      "consultas": "0 / 10",
+      "status": "Folga"
+    },
+    {
+      "id": 4,
+      "nome": "Dra. Sandra Mello",
+      "crm": "CRM-SC 45678",
+      "papel": "Médica · Tele",
+      "especialidade": "Telemedicina",
+      "turno": "Manhã",
+      "consultas": "12 / 15",
+      "status": "Online"
+    },
+    {
+      "id": 5,
+      "nome": "Enf. Laura Rocha",
+      "crm": "COREN-SC 78901",
+      "papel": "Enfermeira",
+      "especialidade": "UTI",
+      "turno": "Noturno",
+      "consultas": "—",
+      "status": "Ativo"
+    }
+  ],
+  "agenda": [
+    {
+      "id": 1,
+      "hora": "07:30",
+      "nome": "Fernanda Lima",
+      "especialidade": "Pré-natal",
+      "profissional": "Dra. Sandra Mello",
+      "status": "Confirmado"
+    },
+    {
+      "id": 2,
+      "hora": "08:00",
+      "nome": "Marco Pereira",
+      "especialidade": "Ecocardiograma",
+      "profissional": "Dra. Sandra Faria",
+      "status": "Em espera"
+    },
+    {
+      "id": 3,
+      "hora": "08:30",
+      "nome": "Beatriz Nunes",
+      "especialidade": "Teleconsulta",
+      "profissional": "Dra. Sandra Mello",
+      "status": "Online"
+    },
+    {
+      "id": 4,
+      "hora": "09:00",
+      "nome": "Henrique Castro",
+      "especialidade": "Neurologia",
+      "profissional": "Dr. Jorge Alves",
+      "status": "Agendado"
+    },
+    {
+      "id": 5,
+      "hora": "11:00",
+      "nome": "Lúcia Barros",
+      "especialidade": "Consulta",
+      "profissional": "Dr. Roberto Costa",
+      "status": "Confirmado"
+    }
+  ],
+  "telemedicina": {
+    "espera": [
+      {
+        "id": 1,
+        "nome": "Ana Ferreira",
+        "tempo": 8,
+        "medico": "Dra. Sandra Mello"
+      },
+      {
+        "id": 2,
+        "nome": "Paulo Ramos",
+        "tempo": 3,
+        "medico": "Dr. Roberto Costa"
+      },
+      {
+        "id": 3,
+        "nome": "Lúcia Barros",
+        "tempo": 1,
+        "medico": "Dra. Sandra Faria"
+      }
+    ],
+    "andamento": [
+      {
+        "id": 101,
+        "nome": "Beatriz Nunes",
+        "medico": "Dra. Sandra Mello",
+        "tempoStr": "00:14:32"
+      },
+      {
+        "id": 102,
+        "nome": "Tadeu Pires",
+        "medico": "Dr. Roberto Costa",
+        "tempoStr": "00:06:11"
+      }
+    ],
+    "prescricoes": []
+  },
+  "leitos": {
+    "alaA": [
+      {
+        "id": "A01",
+        "paciente": "João S.",
+        "status": "occupied"
+      },
+      {
+        "id": "A02",
+        "paciente": "Maria T.",
+        "status": "occupied"
+      },
+      {
+        "id": "A03",
+        "paciente": "Livre",
+        "status": "available"
+      },
+      {
+        "id": "A04",
+        "paciente": "Pedro N.",
+        "status": "occupied"
+      },
+      {
+        "id": "A05",
+        "paciente": "Limpeza",
+        "status": "cleaning"
+      },
+      {
+        "id": "A06",
+        "paciente": "Livre",
+        "status": "available"
+      },
+      {
+        "id": "A07",
+        "paciente": "Reservado",
+        "status": "reserved"
+      },
+      {
+        "id": "A08",
+        "paciente": "Luísa F.",
+        "status": "occupied"
+      },
+      {
+        "id": "A09",
+        "paciente": "Marcos R.",
+        "status": "occupied"
+      },
+      {
+        "id": "A10",
+        "paciente": "Livre",
+        "status": "available"
+      },
+      {
+        "id": "A11",
+        "paciente": "Célia B.",
+        "status": "occupied"
+      },
+      {
+        "id": "A12",
+        "paciente": "Reservado",
+        "status": "reserved"
+      }
+    ],
+    "uti": [
+      {
+        "id": "U01",
+        "paciente": "Crítico",
+        "status": "occupied"
+      },
+      {
+        "id": "U02",
+        "paciente": "Crítico",
+        "status": "occupied"
+      },
+      {
+        "id": "U03",
+        "paciente": "Estável",
+        "status": "occupied"
+      },
+      {
+        "id": "U04",
+        "paciente": "Crítico",
+        "status": "occupied"
+      },
+      {
+        "id": "U14A",
+        "paciente": "ALERTA",
+        "status": "occupied"
+      },
+      {
+        "id": "U19",
+        "paciente": "Livre",
+        "status": "available"
+      }
+    ]
+  },
+  "relatorios": [
+    {
+      "id": 1,
+      "nome": "Atendimentos por especialidade",
+      "periodo": "Mai 2025",
+      "data": "30/05/2025",
+      "formato": "PDF"
+    },
+    {
+      "id": 2,
+      "nome": "Financeiro consolidado",
+      "periodo": "Mai 2025",
+      "data": "30/05/2025",
+      "formato": "XLSX"
+    },
+    {
+      "id": 3,
+      "nome": "Taxa de ocupação hospitalar",
+      "periodo": "Mai 2025",
+      "data": "29/05/2025",
+      "formato": "PDF"
+    },
+    {
+      "id": 4,
+      "nome": "Auditoria de acessos",
+      "periodo": "Mai 2025",
+      "data": "28/05/2025",
+      "formato": "CSV"
+    },
+    {
+      "id": 5,
+      "nome": "Indicadores LGPD",
+      "periodo": "Mai 2025",
+      "data": "27/05/2025",
+      "formato": "PDF"
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "hora": "09:47",
+      "usuario": "dr.costa",
+      "acao": "Acesso prontuário",
+      "ip": "192.168.1.12"
+    },
+    {
+      "id": 2,
+      "hora": "09:31",
+      "usuario": "admin",
+      "acao": "Login",
+      "ip": "192.168.1.1"
+    },
+    {
+      "id": 3,
+      "hora": "09:18",
+      "usuario": "enf.rocha",
+      "acao": "Atualização leito",
+      "ip": "192.168.1.44"
+    },
+    {
+      "id": 4,
+      "hora": "08:55",
+      "usuario": "desconhecido",
+      "acao": "Acesso negado",
+      "ip": "201.24.xx.xx"
+    },
+    {
+      "id": 5,
+      "hora": "08:12",
+      "usuario": "dra.mello",
+      "acao": "Receita emitida",
+      "ip": "192.168.1.22"
+    }
+  ],
+  "configuracoes": {
+    "instituicao": "VidaPlus Hospitais e Clínicas",
+    "cnpj": "00.000.000/0001-00",
+    "unidade": "Sede — Florianópolis",
+    "idioma": "Português (Brasil)",
+    "email": "suporte@vidaplus.com.br",
+    "uptime": "99,82%",
+    "ultimoBackup": "26h atrás"
+  }
+}
