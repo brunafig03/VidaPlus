@@ -64,7 +64,3 @@ O arquivo `DOCUMENTACAO.md` contém a monografia acadêmica completa estruturada
 - Especificação de Endpoints;
 - Plano de Testes detalhado com Cypress e casos funcionais;
 - Conclusão e Referências Acadêmicas (Sommerville, Pressman, LGPD, CFM).
-
----
-
-> **Dica:** Para habilitar total integração das ferramentas de edição no editor, defina a pasta `/home/leonardo/.gemini/antigravity/scratch/sghss-vidaplus` como seu **Workspace Ativo**.
