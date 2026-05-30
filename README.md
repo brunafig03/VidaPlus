@@ -4,7 +4,7 @@ Este é o protótipo funcional e completo do **Sistema de Gestão Hospitalar e d
 
 O projeto foi construído utilizando uma arquitetura moderna e de alto desempenho, unindo um front-end dinâmico e responsivo (SPA) a um back-end robusto e persistente em Node.js com banco de dados simulado e relatórios integrados.
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Certifique-se de possuir o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
@@ -27,7 +27,7 @@ Certifique-se de possuir o [Node.js](https://nodejs.org/) instalado em sua máqu
    http://localhost:3000
    ```
 
-## 📁 Estrutura de Arquivos
+## Estrutura de Arquivos
 
 ```text
 sghss-vidaplus/
@@ -44,7 +44,7 @@ sghss-vidaplus/
     └── index.html       # Estrutura HTML5 semântica e acessível (W3C/WCAG)
 ```
 
-## 🌟 Principais Funcionalidades Implementadas
+## Principais Funcionalidades Implementadas
 
 1. **Dashboard Geral Dinâmico:** Indicadores de pacientes hoje, leitos ocupados, teleconsultas ativas e alertas urgentes são calculados assintoticamente em tempo real diretamente do banco de dados.
 2. **CRUD Completo de Pacientes:** Cadastro, edição e remoção direta com geração aleatória automática de prontuário eletrônico.
@@ -55,7 +55,7 @@ sghss-vidaplus/
 7. **Segurança de Acessos (LGPD):** Logs de auditoria gerados de forma automática em tempo de execução para cada ação crítica executada dentro do sistema (visualizações, cadastros, backups).
 8. **Configurações e Backup:** Formulário de atualizações da instituição e botão funcional de disparo de backups manuais integrados à auditoria.
 
-## 🎓 Documentação Acadêmica
+## Documentação Acadêmica
 O arquivo `DOCUMENTACAO.md` contém a monografia acadêmica completa estruturada estritamente de acordo com as exigências da disciplina, incluindo:
 - Capa e Sumário;
 - Introdução teórica;
