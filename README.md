@@ -1,6 +1,6 @@
 # SGHSS — VidaPlus
 
-Este é o protótipo funcional e completo do **Sistema de Gestão Hospitalar e de Serviços de Saúde (SGHSS)** desenvolvido para a instituição **VidaPlus** como entrega do **Projeto Multidisciplinar (Ano 2025)**.
+Este é o protótipo funcional e completo do **Sistema de Gestão Hospitalar e de Serviços de Saúde (SGHSS)** desenvolvido para a instituição **VidaPlus** como entrega do **Projeto Multidisciplinar (Ano 2026)**.
 
 O projeto foi construído utilizando uma arquitetura moderna e de alto desempenho, unindo um front-end dinâmico e responsivo (SPA) a um back-end robusto e persistente em Node.js com banco de dados simulado e relatórios integrados.
 
